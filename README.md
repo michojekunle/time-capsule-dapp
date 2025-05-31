@@ -26,18 +26,31 @@ A modern time capsule dApp built on Rootstock (RSK) demonstrating Bitcoin-secure
 
 ## 🚀 Quick Start
 
-1. **Clone and install** \`\`\`bash git clone &lt;repository-url&gt; cd rootstock-timecapsule npm install \`\`\`
+1. **Clone and install** 
+   ```bash
+      git clone https://github.com/michojekunle/time-capsule-dapp.git 
+      cd time-capsule-dapp 
+      pnpm install
+      or 
+      npm i --legacy-peer-deps
+   ```
 
-2. **Environment setup** \`\`\`bash cp .env.example .env.local \`\`\`
+2. **Environment setup** 
+   ```bash
+      cp .env.example .env.local 
+   ```
 
-   Add your thirdweb client ID: \`\`\` NEXT_PUBLIC_THIRDWEB_CLIENT_ID=your_client_id \`\`\`
+   Add your thirdweb client ID: 
+   ```
+      NEXT_PUBLIC_THIRDWEB_CLIENT_ID=your_client_id 
+   ```
 
-3. **Deploy the smart contract**
-
-   - Deploy `TimeCapsule.sol` to Rootstock Testnet
-   - Update `NEXT_PUBLIC_CONTRACT_ADDRESS` in `.env.local`
-
-4. **Start development** \`\`\`bash npm run dev \`\`\`
+4. **Start development** 
+   ```bash
+      pnpm dev
+      or 
+      npm run dev 
+   ```
 
 ## 📖 Smart Contract Functions
 
