@@ -70,7 +70,7 @@ export default function GettingStarted({ onCreateCapsule }: GettingStartedProps)
             <div className="bg-white/60 rounded-lg p-4">
               <h3 className="font-medium mb-2">Quick Start Guide</h3>
               <ol className="list-decimal list-inside space-y-1 text-sm text-gray-700">
-                <li>Click "Create Capsule" to write your first message</li>
+                <li>Click &quot;Create Capsule&quot; to write your first message</li>
                 <li>Set how many days in the future it should unlock</li>
                 <li>Choose if it should be private or public</li>
                 <li>Add any attachments (URLs, text, etc.)</li>

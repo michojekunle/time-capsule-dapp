@@ -65,14 +65,13 @@ export default function CapsuleCard({ capsuleId }: CapsuleCardProps) {
         params: [BigInt(capsuleId)],
       });
 
-      // @ts-ignore
       sendAndConfirmTransaction(transaction, {
         onSuccess: () => {
           toast.success("Capsule opened successfully!");
           refetchDetails();
           refetchContent();
         },
-        onError: (error: any) => {
+        onError: (error) => {
           console.error("Error opening capsule:", error);
           toast.error("Failed to open capsule");
         },

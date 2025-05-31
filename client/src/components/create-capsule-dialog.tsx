@@ -73,7 +73,6 @@ export default function CreateCapsuleDialog({
         params: [message, BigInt(daysInFuture), isPrivate, attachments],
       });
 
-      // @ts-ignore
       sendAndConfirmTransaction(transaction, {
         onSuccess: () => {
           toast.success("Time capsule created successfully!");
